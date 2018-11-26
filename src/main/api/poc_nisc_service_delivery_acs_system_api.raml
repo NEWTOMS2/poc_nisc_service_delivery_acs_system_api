@@ -19,6 +19,11 @@ types:
         type: array
         items:
           type: serviceLibrary.ServiceCharacteristic
+      relatedParty:
+        type: array
+        required: false
+        items: 
+          type: serviceLibrary.RelatedParty
   CreateServiceResponse:
     type: CreateServiceRequest
     properties: 
